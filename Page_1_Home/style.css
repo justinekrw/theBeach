@@ -59,7 +59,7 @@ nav {
 	background: url(img/icon.png) center;
 	width: 40px;
 	height: 34px;
-	display: inline-block;
+	display: hidden;
 }
 ul {
 	list-style: none;
