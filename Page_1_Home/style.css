@@ -201,7 +201,7 @@ footer.second {
 		display: inline-block;
 	}
 	nav:hover ul {
-		display: block;
+		display: inline-block;
 	}
 	nav ul, nav:active ul {
 		display: none;
