@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Beach - the surfcamp for coders</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/waypoints.css">
+	<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+	<script src="js/waypoints.js" type="text/javascript"></script>
+
+
+</head>
+<body>
+	<header>
+		<div id="header-inner">
+					<a href="index.html" id="logo"></a>
+	        <nav>
+	          <a href="#" id="menu-icon"></a>
+	          <ul>
+	            <li><a href="index.html" class="current">Home</a></li>
+	            <li><a href="#">Surfcamp</a></li>
+	            <li><a href="#">Activities</a></li>
+	            <li><a href="#">Contact</a></li>
+	          </ul>
+	        </nav>
+	   </div>
+	</header>
+
+
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li><img src="img/background4.jpeg" height="400"/></li>
+					<li><img src="img/background2.jpeg" height="400"/></li>
+					<li><img src="img/background1.jpeg" height="400"/></li>
+					</li>
+				</ul>
+			</section>
+		</div>
+
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<div class="clearfix">
+	<div id="inner-wrapper">
+
+<!---Start Waypoints delay animation -->
+<section class="staggered-animation-container">
+
+<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".5s">
+
+
+		<section class="one-third">
+			<div class="circle">
+					<td><i class="fa fa-users"></i></td>
+			</div>
+			<h3>Our Surfcamp </h3>
+			<p>Description of surcamp</p>
+		</section>
+
+</section> <!---End Animation-->
+
+<section class="os-animation" data-os-animation="fadeInDownBig" data-os-animation-delay=".5s">
+
+		<section class="one-third">
+			<div class="circle">
+					<td><i class="fa fa-map-marker"></i></td>
+			</div>
+			<h3>Unique location</h3>
+			<p>Description of activities</p>
+		</section>
+
+</section> <!---End Animation-->
+
+<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".5s">
+
+		<section class="one-third">
+			<div class="circle">
+					<td><i class="fa fa-check-square-o"></i></td>
+			</div>
+			<h3>New Coding approach</h3>
+			<p>unique approach to coding</p>
+		</section>
+
+</section> <!---End Animation-->
+
+<div class="clearfix"></div>
+
+<section class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay=".5s">
+
+	<article>
+			<img src="img/background5.jpeg" class="circle-image" height="400">
+	</article>
+
+</section> <!---End Animation-->
+
+<section class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay=".5s">
+
+	<aside>
+		<h3>Our surfcamp</h3>
+		<br>
+		<ul class="gym">
+			<li><h4>Unlimited wifi</h4></li>
+			<li><h4>Member music requests</h4></li>
+			<li><h4>Open 24h a day</h4></li>
+			<li><h4>Member music requests</h4></li>
+			<li><h4>Open 24h a day</h4></li>
+		</ul>
+
+	</aside>
+
+</section> <!---End Animation-->
+
+<div class="clearfix"></div>
+
+<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".5s">
+
+	<section class="one-third">
+		<h3>Ladie's section</h3>
+		<img src="img/articleimage1.jpg" height="150"/>
+		<p>sdifsdifjsidjfisfj</p>
+	</section>
+
+</section> <!---End Animation-->
+
+<section class="os-animation" data-os-animation="fadeInDownBig" data-os-animation-delay=".5s">
+
+	<section class="one-third">
+		<h3>Ladie's section</h3>
+		<img src="img/articleimage2.jpg" height="150"/>
+		<p>sdifsdifjsidjfisfj</p>
+	</section>
+
+</section> <!---End Animation-->
+
+<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".5s">
+
+	<section class="one-third">
+		<h3>Ladie's section</h3>
+		<img src="img/articleimage2.jpg" height="150"/>
+		<p>sdifsdifjsidjfisfj</p>
+	</section>
+
+</section> <!---End Animation-->
+
+	</div> <!---End Inner Wrapper-->
+	<div class="clearfix"></div>
+
+<!---Footer Start-->
+<section class="os-animation" data-os-animation="zoomInDown" data-os-animation-delay=".5s">
+
+	<footer>
+		<div id="footer-inner">
+			<section class="one-third" id="footer-third">
+				<h3>Contact</h3>
+				<p class="footercontact">The Beach<br>
+					<b class="phone">+94 555 010</b></br>
+					Heenatigala road, weelawatththa<br>
+					Unawatuna, Sri Lanka<br></p>
+			</section>
+			<section class="one-third" id="footer-third">
+				<h3>Social</h3>
+				<br>
+					<ul class ="social">
+						<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a></i>
+						<li><a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					</ul>
+			</section>
+			<section class="one-third" id="footer-third-last">
+				<h3>Pages</h3>
+				<br>
+				<h5>
+					<a href="index.html">Home</a>-
+					<a href="#">Activities</a>-
+					<a href="#">Contact</a>
+				</h5>
+			</section>
+		</div>
+	</footer>
+	<footer class="second">
+		<p>&copy; The Beach, 2017.</p>
+</section> <!---End Animation-->
+	</footer>
+
+
+
+
+	<!---End Waypoints delay animation -->
+</section>
+
+
+</br>
+</body>
+</html>
